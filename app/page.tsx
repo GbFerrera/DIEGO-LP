@@ -121,7 +121,7 @@ export default function Home() {
             src="/1.jpg"
             alt="Diego Coelho Background"
             fill
-            className="object-cover object-center sm:object-left blur-[2px]"
+            className="object-cover object-center sm:object-left blur-[2px] sm:blur-none"
             priority
             unoptimized
           />
