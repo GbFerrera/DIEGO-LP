@@ -49,7 +49,7 @@ export default function Home() {
               Serviços
             </button>
             <button 
-              onClick={() => document.querySelector('section:has([class*="DEPOIMENTOS"])')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('testimonials')?.scrollIntoView({ behavior: 'smooth' })}
               className="text-zinc-300 hover:text-white transition-colors text-sm font-medium"
             >
               Depoimentos
@@ -57,7 +57,7 @@ export default function Home() {
             <Button 
               size="sm" 
               className="bg-white text-black hover:bg-zinc-200 rounded-full"
-              onClick={() => document.querySelector('section:has([class*="VAMOS CONVERSAR"])')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => window.open('https://wa.me//5562996385641', '_blank')}
             >
               Contato
             </Button>
@@ -92,7 +92,7 @@ export default function Home() {
               </button>
               <button 
                 onClick={() => {
-                  document.querySelector('section:has([class*="DEPOIMENTOS"])')?.scrollIntoView({ behavior: 'smooth' });
+                  document.getElementById('testimonials')?.scrollIntoView({ behavior: 'smooth' });
                   setMobileMenuOpen(false);
                 }}
                 className="block w-full text-left text-zinc-300 hover:text-white transition-colors text-base font-medium py-2"
@@ -102,7 +102,7 @@ export default function Home() {
               <Button 
                 className="w-full bg-white text-black hover:bg-zinc-200 rounded-full"
                 onClick={() => {
-                  document.querySelector('section:has([class*="VAMOS CONVERSAR"])')?.scrollIntoView({ behavior: 'smooth' });
+                  window.open('https://wa.me//5562996385641', '_blank');
                   setMobileMenuOpen(false);
                 }}
               >
@@ -253,7 +253,7 @@ export default function Home() {
             <Button 
               size="lg" 
               className="bg-amber-500 hover:bg-amber-600 text-white text-lg px-12 py-6 rounded-full group shadow-xl hover:shadow-2xl transition-all duration-300"
-              onClick={() => document.querySelector('section:has([class*="VAMOS CONVERSAR"])')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => window.open('https://wa.me//5562996385641', '_blank')}
             >
               Quero Transformar Meu Negócio
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
@@ -554,7 +554,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center"
           >
-            <Button size="lg" className="bg-black text-white hover:bg-zinc-800 text-lg px-12 py-8 rounded-full group shadow-xl hover:shadow-2xl transition-all duration-300">
+            <Button size="lg" className="bg-black text-white hover:bg-zinc-800 text-lg px-12 py-8 rounded-full group shadow-xl hover:shadow-2xl transition-all duration-300" onClick={() => window.open('https://wa.me//5562996385641', '_blank')}>
               Agendar Consultoria Gratuita
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
@@ -645,7 +645,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="relative py-20 bg-gradient-to-br from-zinc-50 via-white to-zinc-100 overflow-hidden">
+      <section id="testimonials" className="relative py-20 bg-gradient-to-br from-zinc-50 via-white to-zinc-100 overflow-hidden">
         {/* Background Elements */}
         <div className="absolute top-20 right-20 w-96 h-96 bg-black/5 rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 left-20 w-80 h-80 bg-black/5 rounded-full blur-3xl"></div>
@@ -834,7 +834,7 @@ export default function Home() {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Button size="lg" className="bg-white text-black hover:bg-zinc-200 text-lg px-12 py-8 rounded-full group shadow-xl hover:shadow-2xl transition-all duration-300">
+                <Button size="lg" className="bg-white text-black hover:bg-zinc-200 text-lg px-12 py-8 rounded-full group shadow-xl hover:shadow-2xl transition-all duration-300" onClick={() => window.open('https://wa.me//5562996385641', '_blank')}>
                   Agendar Consultoria Gratuita
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
