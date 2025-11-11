@@ -152,7 +152,7 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.6 }}
                 className="text-base sm:text-lg md:text-xl text-white leading-relaxed italic font-light mb-5 sm:mb-6 max-w-[75%] sm:max-w-[60%]"
               >
-                "As guerras não são vencidas por pessoas que não se movem, mas sim, pelas que se desenvolvem constantemente, transformando suas batalhas em uma trilha de resultados."
+                "As batalhas não são vencidas por pessoas que não se movem, mas sim, pelas que se desenvolvem constantemente, transformando suas guerras pessoais em movimento gerando uma trilha de resultados positivos."
               </motion.p>
 
               {/* CTA Button */}
@@ -285,10 +285,10 @@ export default function Home() {
               
               <div className="space-y-4 sm:space-y-6 text-base sm:text-lg text-zinc-700 leading-relaxed">
                 <p>
-                  Você já teve vontade de trabalhar com o que você realmente gosta? Já teve aquela vontade de dar tudo de si para se tornar uma pessoa próspera, com vários negócios e fontes de rendas diferentes, ser procurado por outras pessoas e essas ficarem gratas para sempre?
+                  Desde cedo, Diego Coelho descobriu que a verdadeira realização profissional vem quando se trabalha com propósito. A gestão entrou em sua vida como uma ferramenta para transformar ideias em resultados, impulsionar negócios e desenvolver pessoas.
                 </p>
                 <p>
-                  Esse foi o sentimento alimentado por Diego Coelho, uma mente criativa e sonhadora desde sua infância.
+                  Com uma mente criativa e inquieta, sempre acreditou que prosperar é mais do que ter sucesso financeiro — é gerar impacto, abrir caminhos e inspirar outros a crescerem juntos. Essa é a essência que guia sua trajetória e o motiva a continuar construindo soluções que fortalecem o agronegócio, a liderança e o desenvolvimento das pessoas.
                 </p>
               </div>
             </motion.div>
@@ -355,10 +355,10 @@ export default function Home() {
               
               <div className="space-y-6 text-lg text-zinc-700 leading-relaxed">
                 <p>
-                  Diego teve uma infância simples. Criado pela sua mãe e com grande ajuda de sua família materna, até seus 5 anos morava em uma chácara de 3 alqueires no interior de Goiás onde passava a semana sob os cuidados dos seus avós enquanto sua mãe trabalhava na cidade, por pouco mais de R$400,00.
+                  Diego Coelho teve uma infância simples, na chácara de 3 alqueires da família no interior de Goiás, aprendendo desde cedo o valor do esforço e do cuidado com o que se tem. Esses ensinamentos se tornaram a base de seu caráter e de sua visão de vida.
                 </p>
                 <p>
-                  Ele presenciou o que a escassez de dinheiro pode causar na vida das pessoas, mas também aprendeu que o pouco bem administrado fazia muito. Seus avós, tios e sua mãe, sempre foram muito cuidadosos com o dinheiro, e em 18 anos Diego presenciou a transformação da sua família.
+                  Com determinação, Diego transformou esses aprendizados em conquistas: formou-se em Gestão Financeira, se tornou especialista em gestão acumulando experiências estratégicas em instituições como Exército Brasileiro, Brasília Shopping, Prefeitura de Niquelândia, IFAG, Câmara dos Deputados e no Sicoob. Hoje, ele aplica esses valores em suas consultorias de liderança, gestão, agronegócio e na construção de resultados que inspiram e transformam vidas.
                 </p>
               </div>
             </motion.div>
@@ -386,11 +386,11 @@ export default function Home() {
               JORNADA DE TRANSFORMAÇÃO
             </div>
             <h2 className="text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Do Interior para<br />
-              <span className="text-zinc-400">a Capital Federal</span>
+              Transformando Experiências<br />
+              <span className="text-zinc-400">em Resultados</span>
             </h2>
             <p className="text-xl text-zinc-300 max-w-3xl mx-auto leading-relaxed">
-              A decisão que mudou tudo e iniciou um processo de descoberta e crescimento pessoal
+              Descubra como Diego Coelho pode impulsionar seu negócio
             </p>
           </motion.div>
 
@@ -404,13 +404,16 @@ export default function Home() {
             >
               <div className="space-y-6 text-lg text-zinc-300 leading-relaxed">
                 <p>
-                  Esteve também por parte da sua adolescência ajudando seu tio, que já tinha um pequeno negócio quando Diego estava na adolescência. Aos 17 anos, após sua mãe descobrir que ele estava arriscando demais a vida, treinando montarias em touros, tomou a decisão de se tornar militar, e partiu para a capital federal.
+                  Do interior de Goiás para a Capital Federal, Diego Coelho iniciou uma trajetória de transformação pessoal e profissional que hoje se reflete em resultados concretos para empresas, equipes e líderes.
                 </p>
                 <p>
-                  Começava aí um processo de transformação pessoal e principalmente de descoberta, de como funcionava de verdade todo o mercado e como ele poderia encontrar seu propósito de vida, algo que na época vivendo no interior não era prospectado.
+                  Desde a adolescência, ajudando seu tio em pequenos negócios, Diego aprendeu o valor do esforço, da disciplina e da visão estratégica. Aos 17 anos, decidiu ingressar na carreira militar, iniciando um processo de autodesenvolvimento que expandiu sua compreensão sobre gestão, finanças e liderança — ferramentas que hoje ele compartilha com quem busca crescimento real e sustentável.
+                </p>
+                <p>
+                  Com ampla experiência em instituições públicas e privadas, boa formação acadêmica se tornando um especialista com sólida vivência em liderança e desenvolvimento de equipes, Diego oferece soluções personalizadas para negócios de qualquer porte.
                 </p>
                 <p className="text-xl font-semibold text-white">
-                  "E se as guerras são vencidas por quem se move, Diego vem se movendo e desenvolvendo constantemente, estudando profundamente sobre gestão e finanças e assim repassando todo o seu conhecimento."
+                  "Se as guerras são vencidas por quem se move, Diego segue se movendo e se desenvolvendo constantemente — estudando, aplicando e compartilhando todo o seu conhecimento para gerar resultados reais."
                 </p>
               </div>
               
@@ -496,25 +499,31 @@ export default function Home() {
           </motion.div>
 
           {/* Services Grid */}
-          <div className="grid lg:grid-cols-3 gap-8 mb-20">
+          <div className="grid lg:grid-cols-2 xl:grid-cols-4 gap-8 mb-20">
             {[
-              {
-                icon: Target,
-                title: "Consultoria Estratégica",
-                description: "Análise profunda do seu negócio com estratégias personalizadas para crescimento sustentável",
-                features: ["Diagnóstico completo", "Plano de ação", "Acompanhamento mensal"]
-              },
               {
                 icon: TrendingUp,
                 title: "Gestão Financeira",
-                description: "Otimização de recursos e estruturação financeira para maximizar resultados",
+                description: "Planejamento estratégico e melhoria de resultados",
                 features: ["Controle de fluxo de caixa", "Análise de investimentos", "Planejamento fiscal"]
+              },
+              {
+                icon: Target,
+                title: "Consultoria Estratégica",
+                description: "Soluções personalizadas para negócios de qualquer porte",
+                features: ["Diagnóstico completo", "Plano de ação", "Acompanhamento mensal"]
               },
               {
                 icon: Users,
                 title: "Desenvolvimento de Equipes",
-                description: "Capacitação e alinhamento de equipes para alta performance organizacional",
+                description: "Capacitação, motivação e liderança eficaz",
                 features: ["Treinamentos especializados", "Cultura organizacional", "Liderança eficaz"]
+              },
+              {
+                icon: Award,
+                title: "Palestras Inspiradoras",
+                description: "Conteúdo prático e transformador para eventos corporativos e do agronegócio",
+                features: ["Eventos corporativos", "Agronegócio", "Conteúdo transformador"]
               }
             ].map((service, index) => (
               <motion.div
@@ -545,6 +554,24 @@ export default function Home() {
               </motion.div>
             ))}
           </div>
+
+          {/* Closing Statement */}
+          <motion.div 
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <div className="max-w-4xl mx-auto">
+              <p className="text-lg text-zinc-700 leading-relaxed italic mb-8">
+                "Se as guerras são vencidas por quem se move, Diego segue se movendo e se desenvolvendo constantemente — estudando, aplicando e compartilhando todo o seu conhecimento para gerar resultados reais."
+              </p>
+              <p className="text-xl font-semibold text-black">
+                Veja a seguir nossos serviços e agende uma reunião de alinhamento.
+              </p>
+            </div>
+          </motion.div>
 
           {/* CTA */}
           <motion.div 
